@@ -140,7 +140,7 @@ export const FAVICON_CLASSES = {
   'psydb.net': 'psydb',
   'qim.com': 'quebecinfomusique',
   'rateyourmusic.com': 'rateyourmusic',
-  'residentadvisor.net': 'residentadvisor',
+  'ra.co': 'residentadvisor',
   'reverbnation.com': 'reverbnation',
   'rock.com.ar': 'rockcomar',
   'rockensdanmarkskort.dk': 'rockensdanmarkskort',

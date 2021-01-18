@@ -2474,10 +2474,7 @@ const CLEANUPS = {
       new RegExp('^(https?://)?(www\\.)?theatricalia\\.com/', 'i'),
       new RegExp('^(https?://)?(www\\.)?ocremix\\.org/', 'i'),
       new RegExp('^(https?://)?(www\\.)?imvdb\\.com', 'i'),
-      new RegExp(
-        '^(https?://)?(www\\.)?residentadvisor\\.net/(?!review)',
-        'i',
-      ),
+      new RegExp('^(https?://)?(www\\.)?ra\\.co/(?!review)', 'i'),
       new RegExp('^(https?://)?(www\\.)?vkdb\\.jp', 'i'),
       new RegExp('^(https?://)?(www\\.)?ci\\.nii\\.ac\\.jp', 'i'),
       new RegExp('^(https?://)?(www\\.)?iss\\.ndl\\.go\\.jp/', 'i'),
@@ -2683,7 +2680,7 @@ const CLEANUPS = {
   'review': {
     match: [
       new RegExp('^(https?://)?(www\\.)?bbc\\.co\\.uk/music/reviews/', 'i'),
-      new RegExp('^(https?://)?(www\\.)?residentadvisor\\.net/review', 'i'),
+      new RegExp('^(https?://)?(www\\.)?ra\\.co/review', 'i'),
     ],
     type: LINK_TYPES.review,
   },
